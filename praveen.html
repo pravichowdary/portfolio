@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Importing a different Google Font */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif; /* Changed font style */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+        }
+        header {
+            background: #343a40;
+            color: #ffffff;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative;
+            border-bottom: 1px solid #495057;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; /* Aligns content to the sides */
+            padding: 1rem 2rem; /* Increased horizontal padding */
+        }
+        header img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+        }
+        .header-content {
+            position: relative;
+            text-align: center;
+            flex: 1;
+        }
+        nav ul {
+            position: relative;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600; /* Changed font weight */
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        #home {
+            background-color: #6c757d;
+        }
+        #about {
+            background-color: #17a2b8;
+        }
+        #projects {
+            background-color: #28a745;
+        }
+        #contact {
+            background-color: #ffc107;
+            margin-bottom: 80px;
+        }
+        .project {
+            background-color: #ffffff;
+            color: #343a40;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        footer {
+            background: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            border-top: 1px solid #495057;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #343a40;
+        }
+        .contact-info i {
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: auto;
+            padding: 0 10px;
+        }
+        form label {
+            margin-top: 10px;
+            font-weight: 600; /* Changed font weight */
+        }
+        form input, form textarea {
+            margin-top: 5px;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ced4da;
+            font-family: 'Open Sans', sans-serif; /* Changed font for inputs */
+        }
+        form textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        form input[type="submit"] {
+            margin-top: 20px;
+            background-color: #343a40;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        form input[type="submit"]:hover {
+            background-color: #495057;
+        }
+        h2 u {
+            text-decoration: underline;
+        }
+    </style>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="https://www.hdcarwallpapers.com/download/bmw_m5_competition_2020_5k_6-2560x1440.jpg" alt="Header Image">
+        <div class="header-content">
+            <h1>Praveen</h1>
+            <p>Student at Vignan University</p>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+        <p>This is a simple personal portfolio website to showcase my skills and projects.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Praveen, a passionate tech enthusiast currently pursuing my B.Tech at Vignan University, where I am in my 3rd year of study. I have a strong interest in coding, data science, and software development.</p>
+        <p>Throughout my academic journey, I have built a solid foundation in various programming languages such as Python, Java, and C++. I also have hands-on experience with web development technologies like HTML, CSS, and JavaScript. I enjoy tackling complex problems and continuously learning new technologies to stay ahead in the fast-paced world of tech.</p>
+        <p>When I’m not coding, I enjoy watching anime, reading about the latest tech trends, and contributing to open-source projects. I’m also an active participant in coding competitions and hackathons.</p>
+        <p><strong>Educational Background:</strong></p>
+        <ul>
+            <li><strong>School:</strong> Sasi English Medium High School</li>
+            <li><strong>Intermediate:</strong> Sasi Junior College</li>
+            <li><strong>Current:</strong> B.Tech at Vignan University</li>
+        </ul>
+        <p>My goal is to become a software engineer who not only builds robust applications but also contributes to creating a more connected and smarter world. I am eager to explore opportunities where I can apply my knowledge and skills to real-world challenges and collaborate with like-minded professionals.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article class="project">
+            <h3>Simple Anime Recommendations System</h3>
+            <p>A system to provide anime recommendations based on user preferences.</p>
+            <img src="https://cdn.slidesharecdn.com/ss_thumbnails/anime-recommendation-1-180121040742-thumbnail.jpg?width=640&height=640&fit=bounds" alt="Screenshot of Simple Anime Recommendations System">
+        </article>
+        <article class="project">
+            <h3>CREDIT CARD ELIGIBILITY - BOOSTING MODELS</h3>
+            <p>Using boosting models to predict credit card eligibility.</p>
+            <img src="https://poonawallafincorp.com/pfca/assets/og_image/og_image-og-image-credit-card-eligibility-and-factors-affecting.jpg" alt="Screenshot of Credit Card Eligibility - Boosting Models">
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2><u>Contact Me</u></h2>
+        <div class="contact-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>1234 Street Name, City, Country</p>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-envelope"></i>
+            <p><a href="mailto:manoj@example.com" style="color: #343a40;">manoj@example.com</a></p>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-phone-alt"></i>
+            <p>(+123) 456-7890</p>
+        </div>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Praveen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
